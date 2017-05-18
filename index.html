@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+    <title>Pig Dice</title>
+</head>
+
+<body>
+    <div id="introduction">
+      <div class="col-md-4 col-md-offset-4">
+        <h1 class="title"> PIG DICE GAME</h1>
+        <form id="form">
+            <input type="text" id="nameOne" placeholder="Player One, enter your name" class="form-control">
+            <input type="text" id="nameTwo" placeholder="Player Two, enter your name" class="form-control">
+            <h2 class="subtitle">Let's play.</h2>
+        </form>
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="name">Dice Or Die</h1>
+        <div class="row">
+            <div class="col-md-6 player1">
+                <h1></h1>
+                <button class="btn btn-default btn-lg" id="rollOne">Roll</button>
+                <button class="btn btn-default btn-lg" id="holdOne">Hold</button>
+            </div>
+            <div class="col-md-6 player2">
+                <h1></h1>
+                <button class="btn btn-default btn-lg" id="rollTwo">Roll</button>
+                <button class="btn btn-default btn-lg" id="holdTwo">Hold</button>
+            </div>
+        </div>
+        <div id="scoreboard" class="row">
+            <h2>Scoreboard</h2>
+            <div id="output1" class="col-md-6">
+                <span class="diceroll"></span></br>
+                <span class="total"></span>
+                <h3 class="turn1">Your turn is over!</h3>
+            </div>
+            <div id="output2" class="col-md-6">
+                <span class="diceroll"></span></br>
+                <span class="total"></span>
+                <h3 class="turn2">Your turn is over!</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>
